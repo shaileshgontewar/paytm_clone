@@ -1,0 +1,152 @@
+@import url("https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps:wght@400;700&family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+a {
+  text-decoration: none;
+}
+/* scrollbar */
+body::-webkit-scrollbar {
+  width: 0.5em;
+}
+
+body::-webkit-scrollbar-track {
+  background-color: #00baf2;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #fff;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: #fff;
+  height: 5rem;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px,
+    rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+}
+nav .logo img {
+  width: 12rem;
+  margin: 1rem;
+}
+.sec_nav {
+  display: flex;
+  justify-content: space-between;
+}
+.sec_nav a {
+  font-size: 1rem;
+  color: black;
+  margin: 1.5rem 1rem;
+  font-weight: bold;
+}
+.login-btn {
+  background-color: #00baf2;
+  height: 2.2rem;
+  width: 6rem;
+  margin: 1.5rem 1rem;
+  border-radius: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.2rem;
+}
+.login-btn a {
+  color: #fff;
+}
+.box1 {
+  text-align: center;
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    52deg,
+    rgba(255, 255, 255, 1) 9%,
+    rgba(240, 248, 255, 1) 42%
+  );
+}
+.box1 p {
+  padding: 1rem;
+  font-weight: 500;
+}
+.box2{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.pay_img{
+  width: 5rem;
+}
+.text{
+  padding: 2rem;
+}
+.text p{
+  font-weight: 600;
+  font-size: 1.1rem;
+  margin: 1rem 0;
+}
+ .text h1{
+  font-size: 3rem;
+  font-weight: bold;
+ }
+
+
+
+.text a{
+  color: white;
+  background-color: black;
+  padding: .8rem;
+  border-radius: 1.5rem;
+  display: block;
+  width: 15rem;
+}
+.r_section{
+  background-color:#00CCFF ;color: #fff;
+  padding: 4rem 0;
+}
+.r_section h1,.b_section h1{
+padding: 1rem;  font-size: 1.8rem;
+
+}
+
+.r_section div ,.b_section div{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.pcard img {
+  width: 6rem;
+}
+.pcard {
+  display: flex;
+  flex-direction: column;
+}
+.b_section{
+  background-color:#2E5090 ;padding: 4rem 0;
+  color: #fff;
+}
+.i_section{
+  background-color: #F0F8FF;
+}
+.i_section .heading{
+  text-align: center;
+}
+.i_section .pcard{
+  display: flex;
+  flex-direction: row;
+  background-color: #fff;
+  justify-content: space-around;
+  width: 90%;
+  margin: 1rem auto;
+  align-items: center;
+}
+.right > img{
+  width: 80%;
+}
+.i_section .pcard .left{
+  margin: 2rem;
+}
+.my_bg{
+  background-color: #F0F8FF;
+}
